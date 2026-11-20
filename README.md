@@ -1,11 +1,35 @@
 # Chora Engine Library
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![CI](https://github.com/mediaprophet/chora/actions/workflows/main.yml/badge.svg)](https://github.com/mediaprophet/chora/actions/workflows/main.yml)
+[![CI](https://github.com/mediaprophet/chora-engine/actions/workflows/main.yml/badge.svg)](https://github.com/mediaprophet/chora-engine/actions/workflows/main.yml)
 
 **Chora** is an embeddable Rust web and spatial document engine library engineered for [`webizen-desktop`](https://github.com/mediaprophet/webizen-desktop) and the [`qualiaDB`](https://github.com/mediaprophet/qualiaDB) ecosystem.
 
 Built with a library-first architecture, Chora provides independent, multi-process web rendering, document layout, spatial graphics, post-quantum transport security, and host-delegated cryptographic services under a clean Mozilla Public License 2.0 boundary.
+
+This repository is an **independent** project. It is no longer a GitHub fork
+in the Servo network. Full fork coordinates, the MPL-2.0 file boundary, and
+the ring-fence from sibling CC BY-NC-ND works are in
+[`LICENSE-BOUNDARY.md`](LICENSE-BOUNDARY.md).
+
+### Fork provenance
+
+Chora was forked from [Servo](https://github.com/servo/servo) and later
+detached by recreating this repository (GitHub refuses to detach forks larger
+than 1 GB).
+
+| Field | Value |
+|---|---|
+| Upstream | [servo/servo](https://github.com/servo/servo) |
+| Upstream branch | `main` |
+| Fork snapshot commit | [`79ee827b6a5a60a40cab662223f555528571ebcc`](https://github.com/servo/servo/commit/79ee827b6a5a60a40cab662223f555528571ebcc) |
+| Snapshot date | 2026-10-19T23:38:03Z (`layout: Upgrade Taffy to v0.15.0 (#49024)`) |
+| GitHub fork created | 2026-10-20T01:25:08Z |
+| Independent repository created | 2026-11-20 as [`mediaprophet/chora-engine`](https://github.com/mediaprophet/chora-engine) |
+
+Servo contributors retain copyright in their contributions under MPL-2.0.
+This tree publishes only `main` from that snapshot. Old Servo topic branches
+are not part of this repository.
 
 ---
 
@@ -141,4 +165,14 @@ Chora provides the `./mach` build automation tool alongside native Cargo workflo
 ## License
 
 Chora is licensed under the [Mozilla Public License 2.0 (MPL-2.0)](LICENSE).
-All external host integration is maintained through decoupled public traits and the C ABI without non-reciprocal licensing contamination.
+See [`LICENSE-BOUNDARY.md`](LICENSE-BOUNDARY.md) for the file-level boundary.
+
+This MPL-2.0 engine is ring-fenced from QualiaDB, Aether, Webizen, Etalon,
+Synth, and related works that presently use Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0. Those sibling works will later
+move to a different licensing system intended to end digital slavery. That
+future system does not relicense this engine, and Chora Covered Software is
+not dual-licensed under CC BY-NC-ND 4.0.
+
+Do not copy source across that boundary. Host integration uses generic public
+traits and the C ABI.
