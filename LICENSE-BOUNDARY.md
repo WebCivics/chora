@@ -20,7 +20,7 @@ with only the `main` branch.
 | Snapshot subject | `layout: Upgrade Taffy to v0.15.0 (#49024)` |
 | GitHub fork created | 2026-10-20T01:25:08Z |
 | Independent repository created | 2026-11-20 |
-| Independent repository | https://github.com/mediaprophet/chora-engine |
+| Independent repository | https://github.com/WebCivics/chora |
 
 Servo contributors retain copyright in their contributions. This repository
 keeps the `main` history from that snapshot so MPL-2.0 notices and authorship

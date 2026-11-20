@@ -1,7 +1,7 @@
 # Chora Engine Library
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![CI](https://github.com/mediaprophet/chora-engine/actions/workflows/main.yml/badge.svg)](https://github.com/mediaprophet/chora-engine/actions/workflows/main.yml)
+[![CI](https://github.com/WebCivics/chora/actions/workflows/main.yml/badge.svg)](https://github.com/WebCivics/chora/actions/workflows/main.yml)
 
 **Chora** is an embeddable Rust web and spatial document engine library engineered for [`webizen-desktop`](https://github.com/mediaprophet/webizen-desktop) and the [`qualiaDB`](https://github.com/mediaprophet/qualiaDB) ecosystem.
 
@@ -25,7 +25,7 @@ than 1 GB).
 | Fork snapshot commit | [`79ee827b6a5a60a40cab662223f555528571ebcc`](https://github.com/servo/servo/commit/79ee827b6a5a60a40cab662223f555528571ebcc) |
 | Snapshot date | 2026-10-19T23:38:03Z (`layout: Upgrade Taffy to v0.15.0 (#49024)`) |
 | GitHub fork created | 2026-10-20T01:25:08Z |
-| Independent repository created | 2026-11-20 as [`mediaprophet/chora-engine`](https://github.com/mediaprophet/chora-engine) |
+| Independent repository created | 2026-11-20 as [`WebCivics/chora`](https://github.com/WebCivics/chora) |
 
 Servo contributors retain copyright in their contributions under MPL-2.0.
 This tree publishes only `main` from that snapshot. Old Servo topic branches
